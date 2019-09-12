@@ -19,4 +19,7 @@ export class ProductListComponent implements OnInit {
     this.products = products;
   }
 
+  onNotify() {
+    window.alert('You will be notified when the product goes on sale');
+  }
 }
